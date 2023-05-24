@@ -2,70 +2,79 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home PAGE</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="Styles/homePage.css" />
 </head>
 
 <body>
-  <header>
-    <div>
-      <img src="images/header-arrow.svg" />
-    </div>
-    <ul>
-      <li>HOME</li>
-      <li>PORTFOLIO</li>
-      <li>CONTACT ME</li>
-    </ul>
-  </header>
-
-  <div>
-    <p>
-      Hey, I’m Alex Spencer and I love building
-      beautiful websites
-    </p>
-    <div>
-      <p>ABOUT ME</p>
-      <span><img src="images/aboutme-arrow.svg" /></span>
-    </div>
-  </div>
-
-  <div>
-    <img />
-    <div>
-      <h2>About Me</h2>
-      <p>
-        I’m a junior front-end developer looking for a new role in an exciting company. I focus on writing accessible
-        HTML, using modern CSS practices and writing clean JavaScript. When writing JavaScript code, I mostly use React,
-        but I can adapt to whatever tools are required. I’m based in London, UK, but I’m happy working remotely and have
-        experience in remote teams. When I’m not coding, you’ll find me outdoors. I love being out in nature whether
-        that’s going for a walk, run or cycling. I’d love you to check out my work.
-      </p>
-      <button>GO TO PORTFOLIO</button>
-    </div>
-  </div>
-
-  <div>
-    <p>Interested in doing a project together?</p>
-    <button>CONTACT ME</button>
-  </div>
-
-  <footer>
-    <div>
-      <img src="images/footer-arrow.svg" />
+  <div class="container">
+    <header>
+      <div id="header-img">
+        <img src="images/header-arrow.svg" />
+      </div>
       <ul>
-        <li>HOME</li>
-        <li>PORTFOLIO</li>
-        <li>CONTACT ME</li>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">PORTFOLIO</a></li>
+        <li><a href="#">CONTACT ME</a></li>
       </ul>
+    </header>
+  
+    <div class="aside">
+      
+        <p id="intro">
+          Hey, I’m Ajibade Victor and I am a
+          Software Developer.
+        </p> 
+        
+        <div class="click">
+          <span id="click-img" style="color:#000000;"><img src="images/aboutme-arrow.svg" /></span>    
+          <button id="btn">About Me</button>
+        </div> 
+
     </div>
 
-    <div>
-      <img src="images/footer-git.svg" />
-      <img src="images/footer-twitter.svg" />
-      <img src="images/footer-linkedin.svg" />
+    
+  
+    <div class="about-me">
+      <img src="images/Bitmap.svg" style="width: 400px; height:400px"/>
+
+      <div class="inside-about">
+        <h2>About Me</h2>
+        <p>
+          I’m a junior front-end developer looking for a new role in an exciting company. I focus on writing accessible
+          HTML, using modern CSS practices and writing clean JavaScript. When writing JavaScript code, I mostly use React,
+          but I can adapt to whatever tools are required. I’m based in London, UK, but I’m happy working remotely and have
+          experience in remote teams. When I’m not coding, you’ll find me outdoors. I love being out in nature whether
+          that’s going for a walk, run or cycling. I’d love you to check out my work.
+        </p>
+        <button id="goto-port">GO TO PORTFOLIO</button>
+      </div>
     </div>
-  </footer>
+  
+    <div class="close-to-footer">
+      <p id="p-close">Interested in doing a project together?</p>
+      <span id="line"></span>
+      <button id="close-btn">CONTACT ME</button>
+    </div>
+  
+    <footer>  
+      <div class="together">
+        <img src="images/footer-arrow.svg" style=" width:50px; height: 50px;"/>
+        <ul>
+          <li>HOME</li>
+          <li>PORTFOLIO</li>
+          <li>CONTACT ME</li>
+        </ul>
+      </div> 
+            
+        <div class="footer-img">
+          <img src="images/footer-git.svg" />
+          <img src="images/footer-twitter.svg" />
+          <img src="images/footer-linkedin.svg" />
+        </div>
+    </footer>  
+  </div>
 </body>
 
 </html>
