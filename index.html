@@ -10,10 +10,10 @@
 
 <body>
     <div class="container">
-      <nav class="navbar">       
+      <nav class= "navbar">       
           <img src="images/header-arrow.svg" />    
         <div class="nav-link">
-          <a href="#">HOME</a>
+          <a href="homePage.html">HOME</a>
           <a href="#">PORTFOLIO</a>
           <a href="#">CONTACT ME</a>
         </div>
@@ -21,46 +21,50 @@
     
       <div class="first">
         <img src="images/Porto 1.svg" />
-        <section>
-          <p id = "line"></p>
+        <section>    
           <aside>
             <h2>Manage</h2>
-            <p>This project required me to build a fully responsive landing page to the designs provided. 
-            I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, 
-            such as the testimonial slider.
+            <p>
+              This project required me to build a fully responsive landing page to the designs provided. 
+              I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, 
+              such as the testimonial slider.
             </p>
           </aside>
           <button>VIEW PROJECT</button>
         </section>
       </div>
     
-      <div>
-        <section>
-          <h2>Bookmark</h2>
+      <div class="second">
+        <section> 
+          <aside>
+            <h2>Bookmark</h2>
           <p>
             This project required me to build a fully responsive landing page to the designs provided.
              I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity,
              such as the features section.
           </p>
+          </aside> 
           <button>VIEW PROJECT</button>
         </section>
         <img src="images/Porto 2.svg"/>
-      </div>
-    
-      <div>
-        <img src="images/Porto 3.svg"/>
-        <section>
+      </div>    
+      <br>
+
+     
+      <div class="third">
+        <img src="images/Porto 3.svg" style="width:350px; height:430px"/>
+        <section>    
           <h2>Insure</h2>
           <p>
             This was a small project which mostly consisted of HTML and CSS. 
             I built a fully-responsive landing page. The only JavaScript this
              project required was to enable the toggling of the mobile navigation.
           </p>
-          <button>VIEW PROJECT</button>
+          <button id="btn">VIEW PROJECT</button>
         </section>
       </div>
     
-      <div>
+      <div class="forth">
         <section>
           <h2>Fylo</h2>
           <p>
@@ -73,27 +77,28 @@
         <img src="images/Porto 4.svg"/>
       </div>
     
-      <div>
-        <p>Interested in doing a project together?</p>
-        <button>CONTACT ME</button>
+      <div class="close-to-footer">
+        <p id="p-close">Interested in doing a project together?</p>
+        <span id="line"></span>
+        <button id="close-btn">CONTACT ME</button>
       </div>
     
-      <footer>
-        <div>
-          <img src="images/footer-arrow.svg" />
+      <footer>  
+        <div class="together">
+          <img src="images/footer-arrow.svg" style=" width:50px; height: 50px;"/>
           <ul>
             <li>HOME</li>
             <li>PORTFOLIO</li>
             <li>CONTACT ME</li>
           </ul>
-        </div>
-    
-        <div>
-          <img src="images/footer-git.svg" />
-          <img src="images/footer-twitter.svg" />
-          <img src="images/footer-linkedin.svg" />
-        </div>
-      </footer>
+        </div> 
+              
+          <div class="footer-img">
+            <img src="images/footer-git.svg" />
+            <img src="images/footer-twitter.svg" />
+            <img src="images/footer-linkedin.svg" />
+          </div>
+      </footer> 
     
     </div>  
 </body>
